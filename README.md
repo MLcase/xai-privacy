@@ -7,6 +7,7 @@ The experiments use the datasets ["Adult Data Set" by UCI](https://archive.ics.u
 
 Run command `docker build -t xaidataprivacy .` in the directory with the Dockerfile.
 
-Then you can run the image mounted to your working directory with the following command: `docker run -p 8888:8888 -v WORKING_DIRECTORY:/home/jovyan/work xaidataprivacy`
+Then you can run the image mounted to your working directory with the following command: `docker run -p 8888:8888 -v WORKING_DIRECTORY:/home/jovyan/work xaidataprivacy`.
+The working directory should be the directory of this repository.
 
 Open the jupyter notebook at the URL specified in the command prompt.
